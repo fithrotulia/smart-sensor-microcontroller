@@ -10,6 +10,7 @@
 
 #include "stdio.h"
 
+void ADC_INISIALISASI(void);
 void READ_ADC(uint8_t channel);
 uint8_t HasilADCH(uint8_t channel);
 uint8_t HasilADCL(uint8_t channel);

@@ -15,6 +15,7 @@ int i;
 uint16_t adc[100];
 uint16_t threshold;
 
+//bsmillah
 int main(void){
 	ADC_INISIALISASI();
 	DDRA = 0xFF;
